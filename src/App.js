@@ -5,7 +5,7 @@ import CreateSurvey from "./components/create-survey";
 import TakeSurvey from "./components/take-survey";
 import ConfirmSurvey from "./components/confirm-survey";
 import { useDispatch } from "react-redux";
-import { surveySlice, createSurvey } from "./store/surveySlice";
+import { createSurvey } from "./store/surveySlice";
 import { unwrapResult } from "@reduxjs/toolkit";
 
 import "./App.css";
